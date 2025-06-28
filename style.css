@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+#all {
+    text-align: center;
+}
+.title {
+    background-color: grey;
+    margin: 10px 80px;
+    padding: 8px 0;
+    color: white;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: rebeccapurple;
+    padding: 9px 9px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+li {
+    border: solid 2px rebeccapurple;
+    padding: 0;
+    margin: 5px 500px;
+    display: block;
+}
+a:hover {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 9px 9px;
+}

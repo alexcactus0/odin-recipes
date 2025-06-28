@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Verdana, sans-serif;
+}
+#all {
+    margin: 40px 200px;
+    border: solid 5px rgba(223, 177, 91, 0.681);
+    padding: 12px;
+}
+h1 {
+    text-align: center;
+}
+.header {
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    padding: 30px;
+    background-color: rgba(223, 177, 91, 0.681); 
+}
+.home {
+    border: solid 2px rgba(170, 131, 3, 0.592);
+    padding: 0;
+    margin: 5px 30px;
+    width: 100px;
+    display: block;
+    text-align: center;
+}
+a {
+    display: block;
+    text-decoration: none;
+    color: rgba(11, 11, 11, 0.748);
+    font-weight: bold;
+    padding: 9px 9px;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(214, 223, 91, 0.685);
+}
+a:hover {
+    background-color: rgba(223, 177, 91, 0.681);
+    color: white;
+}
+.main {
+    display: block;
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 70%;
+    border: solid 3px rgba(170, 131, 3, 0.592);
+}
+.footer {
+    display: block;
+    border: solid 2px rgba(170, 131, 3, 0.592);
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.desc {
+    border-bottom: solid 2px rgba(223, 177, 91, 0.681);
+    padding: 5px;
+}
+p {
+    padding: 7px;
+}
+ul, ol {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+li {
+    margin: 3px 0 3px;
+}
